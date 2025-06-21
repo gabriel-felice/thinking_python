@@ -1,4 +1,4 @@
-#This app will calculate how many memory modules you'll need in your computer, preserving dual-channel or not.
+#This program will calculate how many memory modules you'll need in your computer, preserving dual-channel or not.
 import time
 k = 0 #Used to iterate input itself.
 print("Let's calculate how much memory modules you'll need in your computer, preserving dual-channel.")
@@ -54,6 +54,4 @@ for i, data in enumerate(modules_quantity):
                 print(f'{modules_quantity[i]} modules of {modules[i]}gb, without Dual-Channel.')
         else:
             print(f'No support in any motherboard for {modules_quantity[i]} modules of {modules[i]}gb')
-    elif modules_quantity[i] > 4:
-        print('Is better to buy Nothing.')
     time.sleep(1)

@@ -19,20 +19,24 @@ Study and Learning:
 - Verify motherboard compatibilty
 
 
-*** Commit 2 ***
+## Commit 2
 
 - Refactored the code, removed a bunch of messy conditions.  
 - Still wondering what I was thinking with 'memrounded'. :-p
 
-*** Commit 3 *** 
+## Commit 3
 
 - Oops - renamed 'README.MD.TXT' to 'README.MD'.
 
-*** Commit 4 ***
+## Commit 4
 
 - Switched to 'append()' and 'enumerate()' - much cleaner now!  
 - Said goodbye to 'n = 0' and all its siblings.  
 - Also tried to fix some of the English.
+
+## Commit 5
+
+- Remove unnecessary line
 
 ### What's next?
 
